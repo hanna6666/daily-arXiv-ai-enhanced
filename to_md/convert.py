@@ -44,7 +44,6 @@ if __name__ == "__main__":
                     authors=",".join(item["authors"]),
                     summary=item["summary"],
                     url=item['abs'],
-                    print(item)
                     tldr=item['AI']['tldr'],
                     motivation=item['AI']['motivation'],
                     method=item['AI']['method'],
